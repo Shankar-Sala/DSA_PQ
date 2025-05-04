@@ -1,11 +1,15 @@
 import java.util.*;
 
-public class PQ2{
-  public static void main(String args[]){
+//Area of a square
+public class PQ2 {
+  public static void main(String args[]) {
     Scanner sc = new Scanner(System.in);
-    int side = sc.nextInt();
-    int area = side * side;
-    // System.out.print("Area of a Square = "+area);
-    System.out.print("Happy New Year "+area);
+
+    System.out.print("Enter side of Square: ");
+    double side = sc.nextDouble(); //45
+
+    double area = side * side;  
+    System.out.println("Area of a Square = "+area);
+    // System.out.println("Happy New Year " + area); 
   }
 }
